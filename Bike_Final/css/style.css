@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    --primary-color1:white;
+    --primary-color2:#325A59;
+    --primary-color3:#009fD7;
+
+}
+@font-face
+{
+    font-family: anuradha;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face
+{
+    font-family: anu;
+    src: url(../fonts/Poppins-Italic.ttf);
+}
+img
+{
+    width: 100%;
+}
+.add
+{
+    color: red;
+}
+
+a
+{
+text-decoration: none;
+}
+.main-head
+{
+background-image: url(../image/bike04.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.kol,.add,.hov
+{
+    font-size: 14px;
+    line-height: 24px;
+}
+.hovering 
+{
+    font-size: 14px !important;
+}
+.hovering:hover
+{
+    color:var(--primary-color3) !important;
+    
+}
+.clr
+{
+   
+   font-size:10px;
+   line-height: 14px;
+   width: 30px;
+   height: 30px;
+  
+
+}
+.blue
+{
+    color: var(--primary-color3);
+
+}
+.blue:hover
+{
+    border-bottom: 2px solid var(--primary-color3);
+}
+.blues
+{
+    background-color: var(--primary-color2);
+}
+.blues:hover
+{
+ background-color: var(--primary-color3);
+  
+}
+
+.main-1
+{
+ font-size: 40px !important;   
+}
+.foot-bg,.foot-bk
+{
+    background-color: #0f0f0f;
+
+}
+.foot-bk
+{
+    border-bottom: 1px solid #CACACA !important;
+}
+.bord
+{
+    border-left: 1px solid white !important;
+}
+.fonts
+{
+    font-size: 14px;
+    line-height: 42px;
+}
+.back
+{
+    background-color: var(--primary-color3) !important;
+}
+.bl
+{
+    color: var(--primary-color3);
+}
+.backer
+{
+    background-color: #222222;
+}
+.arrow
+{
+    font-size: 14px;
+    background-color: var(--primary-color3);
+}
+.bd 
+{
+  background-color: rgba(255,255,255,0.5);  
+}
+.whiter
+{
+font-size: 36px;
+color: #ffffff;
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: -4px;
+line-height: 1;
+}
+.bluer 
+{
+    font-size: 72px;
+    color:var(--primary-color3);
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1;
+    letter-spacing: -7px;
+    font-weight: 700;
+    display: inline-block;
+}
+.hondy
+{
+    color: var(--primary-color3);
+}
+.study
+{
+    color: #CACACA;
+    background-color: var(--primary-color3);
+}
+.study:hover
+{
+    background-color: #ffffff;
+    color: black;
+}
+.imgs
+{
+width: 120px;
+height: 120px;
+transition: 1s all linear;
+}
+
+
+.imgs:hover 
+{
+ transform: rotate(360deg); 
+}
+.fontsz
+{
+    font-size: 14px;
+
+}
+.circ
+{
+  width: 30px;  
+  height: 30px;
+}
+
+.backers
+{
+    background-color: black;
+}
+.anu{
+    background-color: var(--primary-color3); 
+}
+.anu1
+{
+    background-color: #ffffff;
+}
+.poppins
+{
+    font-family: anuradha;
+    font-size: 36px;
+    line-height: 48px;
+}
+.poppins1
+{
+    font-family: anuradha;   
+    font-size: 18px;
+    line-height: 36px;
+}
+.poppins3
+{
+    font-family: anuradha;   
+    font-size: 13px;
+    line-height: 28px;
+} 
+.poppins4
+{
+    font-family: anu;
+    font-size: 16px;
+    line-height: 30px;
+}
+.bors
+{
+    border-right: 2px ridge var(--primary-color3);
+}
+.backbl
+{
+ height: 200px;
+ background-color: var(--primary-color3);   
+}
+.wid
+{
+    overflow: hidden;
+   
+}
+.bor
+{
+  border: 4px solid var(--primary-color2) !important;  
+}
+.border_about
+{
+
+background-color: var(--primary-color3);
+}
+.border_about:hover
+{
+  color: black !important;  
+  background-color: aliceblue;
+}
+.view:hover
+{
+  color: black !important;  
+  background-color: aliceblue;
+  border: 2px solid black !important;
+}
+
+.phone:hover
+{
+color: black !important;  
+background-color: aliceblue;
+
+}
+.te 
+{
+    color: var(--primary-color3) !important;
+}
+@media(min-width:768px)
+{
+    .wids
+    {
+
+    width:700px;
+    height:500px;
+    }
+    .margin-head
+{
+    margin-bottom: 200px;
+}
+
+}
+@media(min-width:992px)
+{
+    .wids
+    {
+
+    width:1100px;
+    height:500px;
+    }
+
+}
